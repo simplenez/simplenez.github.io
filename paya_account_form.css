@@ -29,7 +29,24 @@
   height: 100px;
 }
 
-#accountform_title {}
+/* hide "Account Storage Form" text
+#accountform_title {
+  display: none;
+}
+
+/* change title to alias */
+#accountform_field_title_label {
+  visibility: hidden;
+  position: relative;
+}
+
+#accountform_field_title_label:after {
+  visibility: visible;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "Alias";
+}
 
 
 /* field classes */
