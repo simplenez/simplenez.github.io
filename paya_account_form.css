@@ -29,7 +29,7 @@
   height: 100px;
 }
 
-/* hide "Account Storage Form" text
+/* hide "Account Storage Form" text */
 #accountform_title {
   display: none;
 }
