@@ -1,0 +1,184 @@
+.accountForm {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 0.8em;
+  width: 20em;
+  padding: 0 .8em .8em .8em;
+  border: 1px solid #ccc;
+}
+
+.accountForm * {
+  box-sizing: border-box;
+}
+
+.accountForm.ACH {
+	width: 40em;
+}
+#accountform_col_1.ACH, #accountform_col_2.ACH {
+	width: calc(50% - 0.2em);
+	display: inline-block;
+	vertical-align: top;
+}
+#accountform_col_1.ACH {
+	padding-right: 0.4em;
+}
+#accountform_col_2.ACH {
+	padding-left: 0.4em;
+}
+
+.accountForm textarea {
+  height: 100px;
+}
+
+#accountform_title {}
+
+
+/* field classes */
+
+.accountform_field {
+  margin-bottom: 5px;
+  min-height: 49px;
+}
+
+.accountform_field_label, #accountform_errors label {
+  padding: 0;
+  font-weight: bold;
+}
+
+.accountform_field_required_indicator {
+  color: #d9534f;
+}
+
+.accountform_field_input, .accountform_field_select {
+  display: block;
+  width: 100%;
+  border: 1px solid #ccc;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 0.9em;
+  padding: 0.3em;
+  border-radius: 5px;
+}
+
+.accountform_field_input_radio {
+	display: inline-block;
+}
+
+/* button classes */
+
+#accountform_buttons {
+  text-align: right;
+}
+
+.accountform_button {
+  padding: .6em;
+  border-radius: 0.5em;
+  font-weight: bold;
+  margin-top: .5em;
+  cursor: pointer;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.accountform_button:disabled {
+  opacity: 0.3;
+}
+
+.accountform_button:focus {
+  outline: none;
+}
+
+.accountform_button_action {
+  color: white;
+  background: #007bff;
+  border: 1px solid #007bff;
+}
+
+.accountform_button_action:hover {
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+
+#accountform_buttons_process_methods {
+  margin-bottom: 10px;
+}
+
+.accountform_button_process_method_active {
+  color: #fff;
+  background-color: #f0ad4e;
+  border-color: #eea236;
+}
+
+.accountform_button_process_method_active:hover {
+  background-color: #ec971f;
+  border-color: #d58512;
+}
+
+.accountform_button_process_method_inactive {
+  color: #f0ad4e;
+  background-color: #fff;
+  border-color: #eea236;
+}
+
+.accountform_button_process_method_inactive:hover {
+  color: #fff;
+  background-color: #ec971f;
+  border-color: #d58512;
+}
+
+/* alert classes */
+
+#accountform_success, #accountform_errors {
+  padding: 10px;
+  border-radius: 4px;
+  margin: 10px 0px;
+  display: none;
+}
+
+#accountform_warning{
+  padding: 10px;
+  border: 1px solid #fad571;
+  border-radius: 4px;
+  margin: 10px 0px;
+}
+
+#accountform_warning p{
+  margin: 5px 0px;
+  padding:4px;
+}
+
+#accountform_errors {
+  color: #a94442;
+  background-color: #f2dede;
+  border: 1px solid #ebccd1;
+}
+
+#accountform_errors p {
+  margin: 3px 0px;
+}
+
+#accountform_success {
+  color: #3c763d;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+}
+
+.has-error {
+  border: 1px solid #a94442;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+}
+.has-error:focus {
+  border-color: #843534;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 6px #ce8483;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 6px #ce8483;
+  outline: 0;
+}
+
+.accountform_amount_label {
+  padding: 0;
+  font-weight: bold;
+}
+
+#accountform_amounts {
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+}
