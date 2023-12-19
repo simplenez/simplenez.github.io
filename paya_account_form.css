@@ -1,3 +1,8 @@
+body {
+  color: white;
+  background-color: black;
+}
+
 .accountForm {
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   font-size: 0.8em;
